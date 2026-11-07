@@ -1,5 +1,6 @@
-# 🦫 Timberborn Save Tool
+# 🦫 Timberborn Save Editor — Timberborn Save Tool
 
+**Free, open-source Timberborn save editor and interactive map tool for Windows.**  
 **Your colony, your rules. · Votre colonie, vos règles.**
 
 [![Beta](https://img.shields.io/badge/release-v0.8%20beta-9b6b36)](https://github.com/Inter-Raptor/Timberborn-Save-Tool/releases)
@@ -15,7 +16,7 @@
 
 **🇪🇸** Editor no oficial de partidas de Timberborn para almacenes, castores, robots, ciencia, clima y recursos del mapa.
 
-### 📥 Get started / Télécharger
+### 📥 Download Timberborn Save Editor / Télécharger
 
 - **[Download published releases](https://github.com/Inter-Raptor/Timberborn-Save-Tool/releases)** — Windows EXE when available. No public EXE is guaranteed until a release is published.
 - **[Download source code (ZIP)](https://github.com/Inter-Raptor/Timberborn-Save-Tool/archive/refs/heads/main.zip)** — requires Python 3.10+; extract and run `LANCER.bat`.
@@ -31,7 +32,7 @@ An **unofficial**, community-made GUI for editing local `.timber` save files fro
 
 > **Beta software:** saves are valid ZIP/JSON archives after editing, but not every feature has been independently verified by loading edited saves in the game. Keep original backups. The tool *never permits overwriting the opened save*.
 
-## ✨ Features / Fonctionnalités
+## ✨ Timberborn save editing features / Fonctionnalités
 
 | Tool | What it does |
 |---|---|
@@ -67,6 +68,24 @@ Python 3.10+ unter Windows installieren. `LANCER.bat` starten. `.timber`-Spielst
 ### ES — Inicio rápido
 
 Instala Python 3.10+ en Windows. Ejecuta `LANCER.bat`. Abre una partida `.timber`, edítala y guarda una copia. Comprueba la copia dentro del juego.
+
+## 🔎 What can you edit in a Timberborn save? / Que modifier ?
+
+Looking for a **Timberborn save editor**, **Timberborn save file editor**, **Timberborn map editor** or **Timberborn savegame tool**? This free, open-source utility lets you edit local `.timber` saves on Windows, without replacing the original file.
+
+- **Edit resources and storage:** fill assigned warehouses, stockpiles and tanks to capacity, including food, water, planks and scrap metal.
+- **Add beavers / edit population:** choose the number and age of new adult beavers; duplicate compatible bots from existing saves.
+- **Heal beavers:** restore health and temporarily satisfy hunger and thirst (not permanent infinite needs).
+- **Edit the Timberborn map:** place or remove water sources, badwater sources, underground ruins and geothermal fields; draw lines of water sources; plant customizable forests.
+- **Change science and weather:** set science points and adjust supported drought and badtide duration values.
+
+**Recherches FR :** éditeur de sauvegarde Timberborn, modifier sauvegarde Timberborn, ajouter des castors, remplir les stocks, créer une forêt, ajouter une source d'eau, modifier les points de science.
+
+**Deutsch:** Timberborn Spielstand bearbeiten, Speicherstand Editor, Biber hinzufügen, Lager füllen, Wasserquellen platzieren.
+
+**Español:** editor de partidas Timberborn, modificar partida guardada, añadir castores, llenar almacenes, añadir fuentes de agua.
+
+**Supported game version:** Features were developed against Timberborn 1.1.2.8 saves. Newer versions may change save formats; please report compatibility issues.
 
 ## ⚠️ Notes and limitations
 
