@@ -1,4 +1,29 @@
-# Timberborn Save Tool — Community Edition
+# 🦫 Timberborn Save Tool
+
+**Your colony, your rules. · Votre colonie, vos règles.**
+
+[![Beta](https://img.shields.io/badge/release-v0.8%20beta-9b6b36)](https://github.com/Inter-Raptor/Timberborn-Save-Tool/releases)
+[![Windows](https://img.shields.io/badge/platform-Windows-367bb7)](https://github.com/Inter-Raptor/Timberborn-Save-Tool/actions)
+[![4 languages](https://img.shields.io/badge/languages-FR%20%7C%20EN%20%7C%20DE%20%7C%20ES-46804b)](#features)
+[![MIT](https://img.shields.io/badge/license-MIT-brightgreen)](LICENSE)
+
+**🇫🇷** Un éditeur de sauvegardes pour *Timberborn* : remplissez vos stocks, ajoutez des castors et des robots, soignez votre population, modifiez la science, la météo et les ressources naturelles directement sur la carte.
+
+**🇬🇧** An unofficial *Timberborn* save editor: fill storage, add beavers and bots, heal your population, edit science, weather and natural resources on an interactive map.
+
+**🇩🇪** Inoffizieller Timberborn-Spielstandeditor für Lager, Biber, Bots, Forschung, Wetter und Kartenressourcen.
+
+**🇪🇸** Editor no oficial de partidas de Timberborn para almacenes, castores, robots, ciencia, clima y recursos del mapa.
+
+### 📥 Get started / Télécharger
+
+- **[Download published releases](https://github.com/Inter-Raptor/Timberborn-Save-Tool/releases)** — Windows EXE when available. No public EXE is guaranteed until a release is published.
+- **[Download source code (ZIP)](https://github.com/Inter-Raptor/Timberborn-Save-Tool/archive/refs/heads/main.zip)** — requires Python 3.10+; extract and run `LANCER.bat`.
+- **[Windows builds & test status](https://github.com/Inter-Raptor/Timberborn-Save-Tool/actions)** — check the latest run before distributing a build.
+
+> ⚠️ **Experimental beta.** Always keep the original save. Edited saves may fail to load after a game update. The tool exports a separate `_modifie.timber` copy.
+
+---
 
 **FR · EN · DE · ES** | Windows | Python 3.10+ | No third-party runtime dependencies
 
@@ -6,7 +31,7 @@ An **unofficial**, community-made GUI for editing local `.timber` save files fro
 
 > **Beta software:** saves are valid ZIP/JSON archives after editing, but not every feature has been independently verified by loading edited saves in the game. Keep original backups. The tool *never permits overwriting the opened save*.
 
-## Features
+## ✨ Features / Fonctionnalités
 
 | Tool | What it does |
 |---|---|
@@ -43,7 +68,7 @@ Python 3.10+ unter Windows installieren. `LANCER.bat` starten. `.timber`-Spielst
 
 Instala Python 3.10+ en Windows. Ejecuta `LANCER.bat`. Abre una partida `.timber`, edítala y guarda una copia. Comprueba la copia dentro del juego.
 
-## Notes and limitations
+## ⚠️ Notes and limitations
 
 - Trees are cloned from **living native trees** already represented in the loaded save. Trees placed in bad soil, flooding or polluted areas may die. Occupancy checks are conservative and do not fully model every multi-tile building, so use care.
 - Adding bots without a native bot model is not yet supported. Inventing bot components can crash Timberborn. A future import-from-compatible-save workflow could address this.
